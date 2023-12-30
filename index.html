@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOSEI SQL Formatter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-center text-3xl font-bold mb-6">SQL Formatter</h1>
+        <p class="text-center text-sm text-gray-500 mb-4">The entered SQL is processed only in the browser and is not sent to external servers.</p>
+        <div class="flex flex-wrap -mx-2">
+            <div class="w-full lg:w-1/2 px-2 mb-4 lg:mb-0">
+                <label for="sqlInput" class="block text-sm font-medium text-gray-700">Raw SQL Query</label>
+                <textarea id="sqlInput" rows="10" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Enter your SQL query here..."></textarea>
+            </div>
+            <div class="w-full lg:w-1/2 px-2">
+                <label for="formattedSql" class="block text-sm font-medium text-gray-700">Formatted SQL</label>
+                <textarea id="formattedSql" rows="10" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+# Local Netlify folder
+.netlify
+
+# Node.js モジュール
+node_modules/
+
+# 開発環境の設定ファイル（例: .env）
+.env
+
+# ビルドされた成果物やキャッシュファイル
+/build/
+/dist/
+/.cache/
+
+# ログファイル
+*.log
+
+# エディター/IDE関連のファイル
+.vscode/
+.idea/
+
+# 依存関係のロックファイル
+package-lock.json
+yarn.lock
+
+# Mac OS システムファイル
+.DS_Store
+
+# カバレッジレポート
+coverage/
+
+# エラーレポートやダンプファイル
+errorlog.txt
+core
+
+# 設定ファイルのサンプル（例: .env.example）
+.env.example
+
+# キャッシュディレクトリ
+.cache/
+
+# TypeScriptのビルドディレクトリ（.tsファイルをコンパイルした成果物）
+/out/
